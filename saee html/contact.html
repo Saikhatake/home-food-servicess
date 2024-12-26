@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #007bff;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #0056b3;
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+        }
+        p {
+            text-align: center;
+            color: #555;
+            font-size: 18px;
+        }
+        .contact-details {
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            width: 80%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-details a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            margin: 10px;
+            width: 24px;
+            height: 24px;
+            transition: transform 0.2s;
+        }
+        .icon:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="contact-details">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Reach us through the following options:</p>
+        <ul style="list-style-type: none; padding: 0;">
+            <li><a href="tel:+911234567890">📞 +91 12345 67890</a></li>
+            <li><a href="mailto:contact@homefoodsweets.com">📧 contact@homefoodsweets.com</a></li>
+            <li>🏠 Address: 123, Sweet Street, Food City, India</li>
+        </ul>
+        <div>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="icon">
+            </a>
+            
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="icon">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
